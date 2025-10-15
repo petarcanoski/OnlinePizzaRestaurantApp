@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|d:\\online pizza restaurant app\\application\\onlinepizzarestaurantwebapp\\onlinepizzarestaurantwebapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|d:\\online pizza restaurant app\\application\\onlinepizzarestaurantwebapp\\onlinepizzarestaurantwebapp\\helperclass\\emailcls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\helperclass\\emailcls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|d:\\online pizza restaurant app\\application\\onlinepizzarestaurantwebapp\\onlinepizzarestaurantwebapp\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\user\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|d:\\online pizza restaurant app\\application\\onlinepizzarestaurantwebapp\\onlinepizzarestaurantwebapp\\views\\tablereservation\\bookingtables.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\tablereservation\\bookingtables.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|d:\\online pizza restaurant app\\application\\onlinepizzarestaurantwebapp\\onlinepizzarestaurantwebapp\\controllers\\tablereservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\controllers\\tablereservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|d:\\online pizza restaurant app\\application\\onlinepizzarestaurantwebapp\\onlinepizzarestaurantwebapp\\views\\tablereservation\\partial_tablereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\tablereservation\\partial_tablereservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|d:\\online pizza restaurant app\\application\\onlinepizzarestaurantwebapp\\onlinepizzarestaurantwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\setting\\list_userstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\setting\\list_userstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\home\\partial_newsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\home\\partial_newsletter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\stock\\stockmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\stock\\stockmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\stock\\stockitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\stock\\stockitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\home\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\home\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\home\\ourmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\home\\ourmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\onlinepizzarestaurantwebapp\\views\\stock\\stockdeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A68DB12A-6A74-4902-B82D-6CA188568DEF}|OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp.csproj|solutionrelative:onlinepizzarestaurantwebapp\\views\\stock\\stockdeal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 207,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\User\\Login.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvz0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T11:11:51.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\User\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\User\\Dashboard.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\User\\Dashboard.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\User\\Dashboard.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAGEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T10:24:01.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingTables.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\BookingTables.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\BookingTables.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\BookingTables.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\BookingTables.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAK8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T10:15:48.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TableReservationController.cs",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Controllers\\TableReservationController.cs",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Controllers\\TableReservationController.cs",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Controllers\\TableReservationController.cs",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Controllers\\TableReservationController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAApwGEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T10:14:04.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Partial_TableReservation.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\Partial_TableReservation.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\Partial_TableReservation.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\Partial_TableReservation.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\TableReservation\\Partial_TableReservation.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T10:12:48.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-02T10:11:08.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\User\\Register.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T16:56:29.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "List_UserStatus.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Setting\\List_UserStatus.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Setting\\List_UserStatus.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Setting\\List_UserStatus.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Setting\\List_UserStatus.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T16:56:25.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Partial_NewsLetter.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\Partial_NewsLetter.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Home\\Partial_NewsLetter.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\Partial_NewsLetter.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Home\\Partial_NewsLetter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T16:56:21.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailCls.cs",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\HelperClass\\EmailCls.cs",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\HelperClass\\EmailCls.cs",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\HelperClass\\EmailCls.cs",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\HelperClass\\EmailCls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T16:40:17.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAAL4AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T16:51:13.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StockItem.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockItem.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockItem.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockItem.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockItem.cshtml",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T16:42:03.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StockMenu.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockMenu.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockMenu.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockMenu.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockMenu.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T18:56:30.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Home\\ProductDetail.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\ProductDetail.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Home\\ProductDetail.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAD4v0oAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T18:44:34.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwD8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T18:40:00.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OurMenu.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\OurMenu.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Home\\OurMenu.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Home\\OurMenu.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Home\\OurMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T18:34:49.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StockDeal.cshtml",
+              "DocumentMoniker": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockDeal.cshtml",
+              "RelativeDocumentMoniker": "OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockDeal.cshtml",
+              "ToolTip": "D:\\Online Pizza Restaurant App\\Application\\OnlinePizzaRestaurantWebApp\\OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockDeal.cshtml",
+              "RelativeToolTip": "OnlinePizzaRestaurantWebApp\\Views\\Stock\\StockDeal.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T18:33:33.702Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

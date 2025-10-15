@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlinePizzaRestaurantDbModelStoreContainer" CdmEntityContainer="OnlinePizzaRestaurantDbEntities">
+    <EntitySetMapping Name="DiscountTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.DiscountTable">
+        <MappingFragment StoreEntitySet="DiscountTable">
+          <ScalarProperty Name="DiscountID" ColumnName="DiscountID" />
+          <ScalarProperty Name="DiscountCode" ColumnName="DiscountCode" />
+          <ScalarProperty Name="DiscountPercentage" ColumnName="DiscountPercentage" />
+          <ScalarProperty Name="IsUserStatus" ColumnName="IsUserStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genders">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.Gender">
+        <MappingFragment StoreEntitySet="Gender">
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+          <ScalarProperty Name="GenderTitle" ColumnName="GenderTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderDealDetailTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.OrderDealDetailTable">
+        <MappingFragment StoreEntitySet="OrderDealDetailTable">
+          <ScalarProperty Name="OrderDealDetailID" ColumnName="OrderDealDetailID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="StockDealID" ColumnName="StockDealID" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="DealPrice" ColumnName="DealPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderItemDetailTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.OrderItemDetailTable">
+        <MappingFragment StoreEntitySet="OrderItemDetailTable">
+          <ScalarProperty Name="OrderDetailID" ColumnName="OrderDetailID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="StockItemID" ColumnName="StockItemID" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="DiscountID" ColumnName="DiscountID" />
+          <ScalarProperty Name="DiscountAmount" ColumnName="DiscountAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderStatusTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.OrderStatusTable">
+        <MappingFragment StoreEntitySet="OrderStatusTable">
+          <ScalarProperty Name="OrderStatusID" ColumnName="OrderStatusID" />
+          <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderTypeTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.OrderTypeTable">
+        <MappingFragment StoreEntitySet="OrderTypeTable">
+          <ScalarProperty Name="OrderTypeID" ColumnName="OrderTypeID" />
+          <ScalarProperty Name="OrderTpe" ColumnName="OrderTpe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReservationStatusTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.ReservationStatusTable">
+        <MappingFragment StoreEntitySet="ReservationStatusTable">
+          <ScalarProperty Name="ReservationStatusID" ColumnName="ReservationStatusID" />
+          <ScalarProperty Name="ReservationStatus" ColumnName="ReservationStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockItemCategoryTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockItemCategoryTable">
+        <MappingFragment StoreEntitySet="StockItemCategoryTable">
+          <ScalarProperty Name="StockItemCategoryID" ColumnName="StockItemCategoryID" />
+          <ScalarProperty Name="StockItemCategory" ColumnName="StockItemCategory" />
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+          <ScalarProperty Name="VisibleStatusID" ColumnName="VisibleStatusID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockItemIngredientTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockItemIngredientTable">
+        <MappingFragment StoreEntitySet="StockItemIngredientTable">
+          <ScalarProperty Name="StockItemIngredientID" ColumnName="StockItemIngredientID" />
+          <ScalarProperty Name="StockItemID" ColumnName="StockItemID" />
+          <ScalarProperty Name="StockItemIngredientPhotoPath" ColumnName="StockItemIngredientPhotoPath" />
+          <ScalarProperty Name="StockItemIngredientTitle" ColumnName="StockItemIngredientTitle" />
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockItemTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockItemTable">
+        <MappingFragment StoreEntitySet="StockItemTable">
+          <ScalarProperty Name="StockItemID" ColumnName="StockItemID" />
+          <ScalarProperty Name="StockItemCategoryID" ColumnName="StockItemCategoryID" />
+          <ScalarProperty Name="ItemPhotoPath" ColumnName="ItemPhotoPath" />
+          <ScalarProperty Name="StockItemTitle" ColumnName="StockItemTitle" />
+          <ScalarProperty Name="ItemSize" ColumnName="ItemSize" />
+          <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+          <ScalarProperty Name="RegisterDate" ColumnName="RegisterDate" />
+          <ScalarProperty Name="VisibleStatusID" ColumnName="VisibleStatusID" />
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+          <ScalarProperty Name="OrderTypeID" ColumnName="OrderTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockMenuCategoryTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockMenuCategoryTable">
+        <MappingFragment StoreEntitySet="StockMenuCategoryTable">
+          <ScalarProperty Name="StockMenuCategoryID" ColumnName="StockMenuCategoryID" />
+          <ScalarProperty Name="StockMenuCategory" ColumnName="StockMenuCategory" />
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockMenuItemTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockMenuItemTable">
+        <MappingFragment StoreEntitySet="StockMenuItemTable">
+          <ScalarProperty Name="StockMenuItemID" ColumnName="StockMenuItemID" />
+          <ScalarProperty Name="StockMenuCategoryID" ColumnName="StockMenuCategoryID" />
+          <ScalarProperty Name="StockItemID" ColumnName="StockItemID" />
+          <ScalarProperty Name="VisibleStatusID" ColumnName="VisibleStatusID" />
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TableReservationTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.TableReservationTable">
+        <MappingFragment StoreEntitySet="TableReservationTable">
+          <ScalarProperty Name="TableReservationID" ColumnName="TableReservationID" />
+          <ScalarProperty Name="ReservationUserID" ColumnName="ReservationUserID" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="ReservationRequestDate" ColumnName="ReservationRequestDate" />
+          <ScalarProperty Name="ReservationDateTime" ColumnName="ReservationDateTime" />
+          <ScalarProperty Name="NoOfPeople" ColumnName="NoOfPeople" />
+          <ScalarProperty Name="ProcessBy_UserID" ColumnName="ProcessBy_UserID" />
+          <ScalarProperty Name="ReservationStatusID" ColumnName="ReservationStatusID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserStatusTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.UserStatusTable">
+        <MappingFragment StoreEntitySet="UserStatusTable">
+          <ScalarProperty Name="UserStatusID" ColumnName="UserStatusID" />
+          <ScalarProperty Name="UserStatus" ColumnName="UserStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.UserTable">
+        <MappingFragment StoreEntitySet="UserTable">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="RegistrationDate" ColumnName="RegistrationDate" />
+          <ScalarProperty Name="UserStatusID" ColumnName="UserStatusID" />
+          <ScalarProperty Name="UserStatusChangeDate" ColumnName="UserStatusChangeDate" />
+          <ScalarProperty Name="GenderID" ColumnName="GenderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypeTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.UserTypeTable">
+        <MappingFragment StoreEntitySet="UserTypeTable">
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VisibleStatusTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.VisibleStatusTable">
+        <MappingFragment StoreEntitySet="VisibleStatusTable">
+          <ScalarProperty Name="VisibleStatusID" ColumnName="VisibleStatusID" />
+          <ScalarProperty Name="VisibleStatus" ColumnName="VisibleStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserDetailTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.UserDetailTable">
+        <MappingFragment StoreEntitySet="UserDetailTable">
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+          <ScalarProperty Name="ExperenceLevel" ColumnName="ExperenceLevel" />
+          <ScalarProperty Name="LastExperenceScanPhotoPath" ColumnName="LastExperenceScanPhotoPath" />
+          <ScalarProperty Name="EducationLastDegreeScanPhotoPath" ColumnName="EducationLastDegreeScanPhotoPath" />
+          <ScalarProperty Name="EducationLevel" ColumnName="EducationLevel" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+          <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+          <ScalarProperty Name="UserDetailProviderDate" ColumnName="UserDetailProviderDate" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserDetailID" ColumnName="UserDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AddressTypeTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.AddressTypeTable">
+        <MappingFragment StoreEntitySet="AddressTypeTable">
+          <ScalarProperty Name="AddressType" ColumnName="AddressType" />
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+          <ScalarProperty Name="AddressTypeID" ColumnName="AddressTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserAddressTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.UserAddressTable">
+        <MappingFragment StoreEntitySet="UserAddressTable">
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+          <ScalarProperty Name="VisibleStatusID" ColumnName="VisibleStatusID" />
+          <ScalarProperty Name="FullAddress" ColumnName="FullAddress" />
+          <ScalarProperty Name="AddressTypeID" ColumnName="AddressTypeID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserAddressID" ColumnName="UserAddressID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserPasswordRecoveryTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.UserPasswordRecoveryTable">
+        <MappingFragment StoreEntitySet="UserPasswordRecoveryTable">
+          <ScalarProperty Name="OldPassword" ColumnName="OldPassword" />
+          <ScalarProperty Name="RecoveryStatus" ColumnName="RecoveryStatus" />
+          <ScalarProperty Name="RecoveryCodeExpireDateTime" ColumnName="RecoveryCodeExpireDateTime" />
+          <ScalarProperty Name="RecoveryCode" ColumnName="RecoveryCode" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserRecvoeryID" ColumnName="UserRecvoeryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockDealDetailTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockDealDetailTable">
+        <MappingFragment StoreEntitySet="StockDealDetailTable">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="CreatedBy_UserID" ColumnName="CreatedBy_UserID" />
+          <ScalarProperty Name="VisibleStatusID" ColumnName="VisibleStatusID" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="StockItemID" ColumnName="StockItemID" />
+          <ScalarProperty Name="StockDealID" ColumnName="StockDealID" />
+          <ScalarProperty Name="StockDealDetailID" ColumnName="StockDealDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockDealTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockDealTable">
+        <MappingFragment StoreEntitySet="StockDealTable">
+          <ScalarProperty Name="DealPhoto" ColumnName="DealPhoto" />
+          <ScalarProperty Name="StockDealRegisterDate" ColumnName="StockDealRegisterDate" />
+          <ScalarProperty Name="StockDealEndDate" ColumnName="StockDealEndDate" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="StockDealStartDate" ColumnName="StockDealStartDate" />
+          <ScalarProperty Name="VisibleStatusID" ColumnName="VisibleStatusID" />
+          <ScalarProperty Name="DealPrice" ColumnName="DealPrice" />
+          <ScalarProperty Name="StockDealTitle" ColumnName="StockDealTitle" />
+          <ScalarProperty Name="StockDealID" ColumnName="StockDealID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SubscribeEmailTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.SubscribeEmailTable">
+        <MappingFragment StoreEntitySet="SubscribeEmailTable">
+          <ScalarProperty Name="SubscribeStatus" ColumnName="SubscribeStatus" />
+          <ScalarProperty Name="SubscribeEmailAddress" ColumnName="SubscribeEmailAddress" />
+          <ScalarProperty Name="SubscribeEmailID" ColumnName="SubscribeEmailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockItemReviewTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.StockItemReviewTable">
+        <MappingFragment StoreEntitySet="StockItemReviewTable">
+          <ScalarProperty Name="ReviewDetails" ColumnName="ReviewDetails" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="ReviewDateTime" ColumnName="ReviewDateTime" />
+          <ScalarProperty Name="Review_UserID" ColumnName="Review_UserID" />
+          <ScalarProperty Name="StockItemID" ColumnName="StockItemID" />
+          <ScalarProperty Name="ItemReviewID" ColumnName="ItemReviewID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CartDealTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.CartDealTable">
+        <MappingFragment StoreEntitySet="CartDealTable">
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="StockDealID" ColumnName="StockDealID" />
+          <ScalarProperty Name="CartID" ColumnName="CartID" />
+          <ScalarProperty Name="CartDealID" ColumnName="CartDealID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CartItemDetailTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.CartItemDetailTable">
+        <MappingFragment StoreEntitySet="CartItemDetailTable">
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="StockItemID" ColumnName="StockItemID" />
+          <ScalarProperty Name="CartID" ColumnName="CartID" />
+          <ScalarProperty Name="CartItemID" ColumnName="CartItemID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CartTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.CartTable">
+        <MappingFragment StoreEntitySet="CartTable">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="CartID" ColumnName="CartID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderPaymentTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.OrderPaymentTable">
+        <MappingFragment StoreEntitySet="OrderPaymentTable">
+          <ScalarProperty Name="OrderPaymentStatus" ColumnName="OrderPaymentStatus" />
+          <ScalarProperty Name="OrderPaymentID" ColumnName="OrderPaymentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderTables">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.OrderTable">
+        <MappingFragment StoreEntitySet="OrderTable">
+          <ScalarProperty Name="OrderPaymentID" ColumnName="OrderPaymentID" />
+          <ScalarProperty Name="ProcessBy_UserID" ColumnName="ProcessBy_UserID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OrderStatusID" ColumnName="OrderStatusID" />
+          <ScalarProperty Name="OrderReceivedBy_FullName" ColumnName="OrderReceivedBy_FullName" />
+          <ScalarProperty Name="OrderReceivedBy_ContactNo" ColumnName="OrderReceivedBy_ContactNo" />
+          <ScalarProperty Name="DeliveryAddres_UserAddressID" ColumnName="DeliveryAddres_UserAddressID" />
+          <ScalarProperty Name="OrderTypeID" ColumnName="OrderTypeID" />
+          <ScalarProperty Name="OrderDateTime" ColumnName="OrderDateTime" />
+          <ScalarProperty Name="OrderBy_UserID" ColumnName="OrderBy_UserID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Orders">
+      <EntityTypeMapping TypeName="OnlinePizzaRestaurantDbModel.v_Orders">
+        <MappingFragment StoreEntitySet="v_Orders">
+          <ScalarProperty Name="DeliveryAddress" ColumnName="DeliveryAddress" />
+          <ScalarProperty Name="DeliveryAddressID" ColumnName="DeliveryAddressID" />
+          <ScalarProperty Name="OrderPaymentStatus" ColumnName="OrderPaymentStatus" />
+          <ScalarProperty Name="OrderPaymentID" ColumnName="OrderPaymentID" />
+          <ScalarProperty Name="ProcessUserName" ColumnName="ProcessUserName" />
+          <ScalarProperty Name="ProcessBy_UserID" ColumnName="ProcessBy_UserID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+          <ScalarProperty Name="OrderStatusID" ColumnName="OrderStatusID" />
+          <ScalarProperty Name="Customer_ContactNo" ColumnName="Customer_ContactNo" />
+          <ScalarProperty Name="Customer_FullName" ColumnName="Customer_FullName" />
+          <ScalarProperty Name="OrderTpe" ColumnName="OrderTpe" />
+          <ScalarProperty Name="OrderTypeID" ColumnName="OrderTypeID" />
+          <ScalarProperty Name="Order_DateTime" ColumnName="Order_DateTime" />
+          <ScalarProperty Name="Customer_UserName" ColumnName="Customer_UserName" />
+          <ScalarProperty Name="Customer_UserID" ColumnName="Customer_UserID" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

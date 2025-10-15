@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68f4e99335cb4b349361dfb39f9f9b00" Name="Diagram1" ZoomLevel="68">
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.DiscountTable" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.Gender" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.OrderDealDetailTable" Width="1.5" PointX="10.5" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.OrderItemDetailTable" Width="1.5" PointX="10.5" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.OrderStatusTable" Width="1.5" PointX="3" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.OrderTypeTable" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.ReservationStatusTable" Width="1.5" PointX="6" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockItemCategoryTable" Width="1.5" PointX="5.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockItemIngredientTable" Width="1.5" PointX="10.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockItemTable" Width="1.5" PointX="8.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockMenuCategoryTable" Width="1.5" PointX="8.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockMenuItemTable" Width="1.5" PointX="10.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.TableReservationTable" Width="1.5" PointX="8.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.UserStatusTable" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.UserTable" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.UserTypeTable" Width="1.5" PointX="0.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.VisibleStatusTable" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderItemDetailTable_DiscountTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserTable_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderItemDetailTable_StockItemTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockItemTable_OrderTypeTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_TableReservationTable_ReservationStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockItemCategoryTable_VisibleStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockItemTable_StockItemCategoryTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockItemIngredientTable_StockItemTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockItemTable_VisibleStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockMenuItemTable_StockItemTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockMenuItemTable_StockMenuCategoryTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockMenuItemTable_VisibleStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_TableReservationTable_UserTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_TableReservationTable_UserTable2" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserTable_UserStatusTable" ManuallyRouted="false" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserTable_UserTypeTable" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.UserDetailTable" Width="1.5" PointX="5.25" PointY="20.125" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserDetailTable_UserTable" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.AddressTypeTable" Width="1.5" PointX="14.875" PointY="0.5" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.UserAddressTable" Width="1.5" PointX="17.125" PointY="8.875" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserAddressTable_AddressTypeTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserAddressTable_UserTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserAddressTable_VisibleStatusTable" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.UserPasswordRecoveryTable" Width="1.5" PointX="5.375" PointY="7.125" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_UserPasswordRecoveryTable_UserTable" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockDealDetailTable" Width="1.5" PointX="13.375" PointY="5" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockDealTable" Width="1.5" PointX="5.125" PointY="0.5" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderDealDetailTable_StockDealTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockDealDetailTable_StockDealTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockDealDetailTable_StockItemTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockDealDetailTable_VisibleStatusTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_StockDealTable_VisibleStatusTable" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.SubscribeEmailTable" Width="1.5" PointX="13.375" PointY="8.75" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.StockItemReviewTable" Width="1.5" PointX="13.375" PointY="11.75" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.CartDealTable" Width="1.5" PointX="13.5" PointY="15.625" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.CartItemDetailTable" Width="1.5" PointX="10.5" PointY="15.75" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.CartTable" Width="1.5" PointX="5.25" PointY="24.875" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_CartDealTable_CartTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_CartDealTable_StockDealTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_CartItemDetailTable_CartTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_CartItemDetailTable_StockItemTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_CartTable_UserTable" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.OrderPaymentTable" Width="1.5" PointX="17.125" PointY="12.875" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.OrderTable" Width="1.5" PointX="19.375" PointY="11.5" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderDealDetailTable_OrderTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderItemDetailTable_OrderTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderTable_OrderPaymentTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderTable_OrderStatusTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderTable_OrderTypeTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderTable_UserAddressTable" />
+        <AssociationConnector Association="OnlinePizzaRestaurantDbModel.FK_OrderTable_UserTable" />
+        <EntityTypeShape EntityType="OnlinePizzaRestaurantDbModel.v_Orders" Width="1.5" PointX="5.375" PointY="10.75" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

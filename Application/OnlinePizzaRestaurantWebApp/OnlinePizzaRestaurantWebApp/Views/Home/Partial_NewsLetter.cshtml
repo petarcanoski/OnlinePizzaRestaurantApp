@@ -1,0 +1,30 @@
+﻿
+
+<!-- Newsletter Start -->
+<div id="newsletter">
+    <div class="container">
+        <div id="subscribe">
+            <!-- Subscribe Form -->
+            @using (Html.BeginForm("SubscribeEmail", "Home", FormMethod.Post, new { @enctype = "multipart/form-data", @class = "form-horizontal", @name = "subscribe" }))
+            {
+                @Html.AntiForgeryToken()
+                    <div class="row">
+                        <div class="col-sm-6 col-md-7">
+                            <div class="input-group">
+                                <span class="news">newsletter</span>
+                                <p>For upcomming news subscription please enter your email address here.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-5 form-group">
+                            <div class="input-group">
+                                <input name="subs_email" id="subscribe_email" placeholder="Email" type="text">
+                                <button class="btn btn-news" type="submit" value="submit">Send</button>
+                            </div>
+                        </div>
+                    </div>
+            }
+                <!-- Subscribe Form -->
+            </div>
+    </div>
+</div>
+<!-- Newsletter End -->

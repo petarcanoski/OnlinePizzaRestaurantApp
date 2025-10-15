@@ -1,0 +1,142 @@
+﻿@model IEnumerable<OnlinePizzaRestaurantWebApp.Models.CustomerOrdersMV>
+@{
+    ViewBag.Title = "Order History";
+}
+
+<!-- Breadcrumb Start -->
+<div class="bread-crumb">
+    <div class="container">
+        <div class="matter">
+            <h2>Orders</h2>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="@Url.Content("~/Home/Index")">HOME</a></li>
+                <li class="list-inline-item"><a href="@Url.Content("~/Order/AllOrders")">Order History</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb End -->
+<!-- History Start -->
+<div class="dashboard">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 commontop text-center">
+                <h4>Customer Order History</h4>
+                <div class="divider style-1 center">
+                    <span class="hr-simple left"></span>
+                    <i class="icofont icofont-ui-press hr-icon"></i>
+                    <span class="hr-simple right"></span>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 user-profile">
+                <div class="row">
+
+                    <div class="col-md-12 col-lg-12">
+                        <div class="tab-content">
+                            <div id="history" class="tab-pane fade active show">
+                                @foreach (var order in Model)
+                                {
+                                    <div class="item-entry">
+                                        <span class="order-id">Order ID: PIR-@order.OrderID</span>
+                                        <div class="item-content">
+                                            <div class="item-body">
+                                                <div class="row">
+                                                    <div class="col-md-8 col-sm-8 text-center">
+                                                        <div class="row">
+                                                            @foreach (var item in order.OrderDetails)
+                                                            {
+
+                                                                <div class="product-layout product-grid col-lg-4 col-md-4 col-sm-6 col-12">
+                                                                    <div class="product-thumb">
+                                                                        <div class="image">
+                                                                            <a class="link" href="@Url.Content("~/Home/ProductDetail?itemid="+item.StockItemID)">
+                                                                                <img src="@Url.Content("~/" + item.ItemPhotoPath)" alt="Food image" title="Food image" class="img-fluid" />
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="caption">
+                                                                            <h4>@item.StockItemTitle (@item.ItemSize)</h4>
+                                                                            <div class="price">Quantity : @item.Qty</div>
+                                                                            <div class="price">Price : @item.UnitPrice</div>
+                                                                            <p class="des">Item Cost : @(item.Qty * item.UnitPrice) </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            }
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-md-4 col-sm-3 text-right">
+                                                        @if (order.OrderStatusID == 1)
+                                                        {
+                                                            <p class="confirmed"><i class="icofont icofont-check"></i>@order.OrderStatus</p>
+                                                            <button type="button" class="btn btn-theme btn-md" onclick="cancelOrder(@order.OrderID)">
+                                                                <i class="icofont icofont-close-line"></i>Cancel
+                                                            </button>
+                                                        }
+                                                        else if (order.OrderStatusID <= 4 && order.OrderStatusID >= 2)
+                                                        {
+                                                            <p class="confirmed"><i class="icofont icofont-check"></i>@order.OrderStatus</p>
+                                                        }
+                                                        else if (order.OrderStatusID >= 5)
+                                                        {
+                                                            <p class="failed"><i class="icofont icofont-close"></i>@order.OrderStatus</p>
+                                                        }
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item-footer order-id" style="display: flex; justify-content: space-between;">
+                                                <div style="align-content:start;"><strong>Order Date:</strong> @order.Order_DateTime.ToString("dd MMMM yyyy hh:mm:tt")</div>
+                                                <div style="align-content:end;"><strong>Order Total Cost:</strong> @order.TotalCost</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="text-center load-more">
+                                    @if (Model.Count() <= 0)
+                                    {
+                                        <a class="btn btn-theme btn-md btn-wide" href="">No Orders</a>     
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-theme btn-md btn-wide" href="@Url.Content("~/Order/AllOrders")">LOAD MORE</a>
+                                    }
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- History End -->
+
+<script type="text/javascript">
+
+    function cancelOrder(orderid) {
+        var url = "/Order/Cancel_Order?orderid=" + orderid;
+        $.ajax({
+            url: url,
+            type: 'GET',
+            dataType: 'json',
+            // we set cache: false because GET requests are often cached by browsers
+            // IE is particularly aggressive in that respect
+            cache: false,
+            data: {},
+            success: function (result) {
+                if (result == true) {
+                    location.reload();
+                }
+                else {
+                    alert("Plz login and Try-Again!");
+                }
+            }
+        });
+    }
+</script>
